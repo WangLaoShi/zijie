@@ -1,0 +1,65 @@
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  background: #f0f2f5;
+}
+
+.sales-extra {
+  display: flex;
+  align-items: center;
+  height: 32px;
+}
+
+.sales-extra a {
+  margin-left: 24px;
+  color: rgba(0, 0, 0, 0.65);
+  cursor: pointer;
+}
+
+.sales-extra a.active {
+  color: #1677ff;
+}
+
+.rank-list {
+  max-height: 372px;
+  margin: 8px 0 0;
+  padding: 0;
+  overflow: auto;
+  list-style: none;
+}
+
+.rank-list li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 34px;
+}
+
+.rank-index {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  background: #f5f5f5;
+}
+
+.rank-index.top {
+  color: #fff;
+  background: #314659;
+}
+
+.rank-name {
+  flex: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.rank-value {
+  color: rgba(0, 0, 0, 0.88);
+}
